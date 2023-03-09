@@ -1,0 +1,19 @@
+{
+  "name": "fabric",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@motion-canvas/2d": "^2.6.0",
+    "@motion-canvas/core": "^2.6.0"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "^2.6.0",
+    "@motion-canvas/vite-plugin": "^2.6.0",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.5"
+  }
+}
